@@ -1,14 +1,13 @@
 import React from 'react'
-
-import TimeButton from './components/TimeButton'
-
+import './test.css'
 
 const App = () =>{
 
-  return(
-    <TimeButton />
+  return (
+    <>
+      <p className='test'> This is a testing laboratory </p>
+    </>
   )
-
 }
 
 export default App
